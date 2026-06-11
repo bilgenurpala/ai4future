@@ -1,11 +1,11 @@
 # Course Devlog
 
 ## Progress Tracker
-- [x] **Module 1**: AI Fundamentals & GenAI (Completed: 'Exploring AI', 'Intro to GenAI', & 'Exploring Data' documented)
-- [/] **Module 2**: Agentic Systems (In Progress: 'Unleashing the Power of AI Agents' documented)
-- [ ] **Module 3**: RAG & Embeddings
-- [ ] **Module 4**: Infrastructure & Security
-- [ ] **Module 5**: Advanced Topics
+- [x] **Module 1**: AI Fundamentals & GenAI (Completed)
+- [x] **Module 2**: Agentic & Multi-Agent Systems (Completed)
+- [x] **Module 3**: RAG & Embeddings (Completed)
+- [x] **Module 4**: Infrastructure & Security (Completed)
+- [x] **Module 5**: Advanced Topics (Completed)
 
 ---
 
@@ -47,4 +47,27 @@
     - **Section 5: The Future of Data**: Highlighted McKinsey statistics (15-25% margin boost), the integration of AI (automation, analysis, security) and IoT (real-time stream, predictive dashboards, dynamic scaling), and emerging trends (data privacy, advanced analytics visualization with Cognos, and synthetic data utility in finance).
   - Created the root-level project **[README.md](file:///c:/Programming/Ai%20-%20Engineer/ai4future/README.md)**.
     - Drafted in a professional, senior-level style detailing the repository structure, active progress tracker, and deep technical summaries of all completed Module 1 and Module 2 courses, complete with navigation links and structural charts.
-- **Status**: Completed documentation for Module 1 (all completed), Module 2 Course 1 ("Unleashing the Power of AI Agents" completed), Module 2 Course 2 ("The Rise of Multi-Agent Systems" completed), and initialized the root README.md. Ready for the next phase.
+- **Status**: Completed documentation for Module 1, Module 2, and initialized the root README.md. Ready for the next phase.
+
+### Day 2 - 2026-06-11
+- **Goal**: Document RAG & Embeddings, Multimodal AI, and Exploring Cloud Computing courses, update digital badges, and upgrade older documentation diagrams.
+- **Achievements & Learnings**:
+  - Documented **Module 3: Retrieval-Augmented Generation (RAG)** in [smarter-ai-embeddings.md](file:///c:/Programming/Ai%20-%20Engineer/ai4future/docs/03-rag-embeddings/smarter-ai-embeddings.md).
+    - Described cost-efficient scaling, real-time currency, and source attribution advantages.
+    - Designed the RAG pipeline flowchart and the Open-Book student metaphor in Mermaid.
+    - Documented case studies: Enterprise HR policy assistance and the Dubai budget hotel traveler query.
+  - Documented **Module 5: Multimodal AI** in [multimodal-ai.md](file:///c:/Programming/Ai%20-%20Engineer/ai4future/docs/05-advanced-topics/multimodal-ai.md).
+    - Mapped unimodal vs. multimodal architectures and alignment mechanisms.
+    - Designed structural input-output alignment flows in Mermaid.
+    - Documented case studies: Truck telemetry ticketing, Dormitory kitchen hazards, and Miami video search.
+  - Documented **Module 4: Exploring Cloud Computing** in [cloud-computing.md](file:///c:/Programming/Ai%20-%20Engineer/ai4future/docs/04-infra-security/cloud-computing.md).
+    - Covered 4-step access lifecycle and Hypervisor-driven hardware virtualization.
+    - Defined bare-metal physical vs. virtual machine performance/compliance splits.
+    - Detailed the Shared Responsibility Matrix across IaaS, PaaS, SaaS, and FaaS.
+    - Contrasted Public, Private, Hybrid, and Multi-Cloud deployment topologies.
+    - Mapped On-Premises CapEx systems vs. Off-Premises OpEx services.
+    - Outlined future tech: Predictive AI scaling, Edge computing latency reduction, Zero Trust, and Disaster Recovery.
+  - Managed **Digital Credentials**:
+    - Integrated four earned credentials under `assets/badges/`, linking them directly at the top of corresponding documents.
+  - Refactored older documents (Module 1 and Module 2) to upgrade legacy ASCII architecture flows into high-fidelity Mermaid diagrams.
+- **Status**: All 5 Modules fully completed, README.md updated, and changes staged for commit.

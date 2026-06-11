@@ -1,5 +1,8 @@
 # Unleashing the Power of AI Agents
 
+![Unleashing the Power of AI Agents Badge](../../assets/badges/badge-power-of-ai-agents.png)
+
+
 Welcome to the documentation for Module 2, Section 1: **Unleashing the Power of AI Agents**. This section covers the core concepts, classifications, architectural workflows, and real-world applications of agentic AI systems.
 
 ---
@@ -114,6 +117,16 @@ One of the most popular agent architectures, **ReAct**, structures the agent's e
 *   **Action**: The model selects and invokes a tool (e.g., calling an API or database query).
 *   **Observation**: The system feeds the tool's output back to the model.
 *   *The loop repeats until the agent reaches the final answer.*
+
+```mermaid
+graph TD
+    Goal([User Goal]) --> Thought[Thought: Reasoning & Planning]
+    Thought --> Action[Action: Select & Invoke Tool]
+    Action --> Observation[Observation: Receive Tool Output]
+    Observation --> |Analyze Result| Thought
+    Thought --> |Goal Achieved| FinalAnswer([Final Answer])
+```
+
 
 ---
 

@@ -30,9 +30,9 @@ ai4future/
 | :--- | :--- | :---: | :--- |
 | **Module 1** | **AI Fundamentals & GenAI** | Completed | AI Lifecycle, Foundation Models, Transformers, Data Management & ETL |
 | **Module 2** | **Agentic & Multi-Agent Systems** | Completed | ReAct Loop, Agentic Autonomy, Centralized vs. P2P MAS, MoE, Industry Case Studies |
-| **Module 3** | **RAG & Embeddings** | Pending | Scheduled for next phase |
-| **Module 4** | **Infrastructure & Security** | Pending | Scheduled for next phase |
-| **Module 5** | **Advanced Topics** | Pending | Scheduled for next phase |
+| **Module 3** | **RAG & Embeddings** | Completed | Embeddings, Semantic Vector Search, Context Augmentation, HR & Travel Use Cases |
+| **Module 4** | **Infrastructure & Security** | Completed | Virtualization, Shared Responsibility, Deployment Topologies, On-Prem vs. Cloud |
+| **Module 5** | **Advanced Topics** | Completed | Multimodal Learning, Unimodal vs. Multimodal, Visual Alignment, Hazard Detection |
 
 ---
 
@@ -89,6 +89,43 @@ This module shifts from passive language processing to autonomous planning, tool
     *   *Heterogeneous*: Diverse agents with distinct capabilities (e.g., Stage Production).
     *   *Mixture of Experts (MoE)*: Routing agent dynamically assigns tasks to specialist models in real-time (e.g., Cardiology vs. Neurology diagnostics).
 *   **Festival Management Case Study**: Traces a comprehensive event management lifecycle using all five agent coordination frameworks to optimize entry queues, dynamic food pricing, transit routing, emergency exit safety, and stage production.
+
+---
+
+### 🔹 Module 3: Retrieval-Augmented Generation (RAG) & Embeddings
+
+This module deconstructs how semantic databases and real-time context retrieval can eliminate LLM hallucinations and anchor generations in ground-truth source material.
+
+#### 1. [Build Smarter AI with Embeddings](file:///c:/Programming/Ai%20-%20Engineer/ai4future/docs/03-rag-embeddings/smarter-ai-embeddings.md)
+*   **Decoupled Intelligence:** Explores the architectural decoupling of the LLM reasoning engine from static knowledge weights, querying external vector indices at runtime.
+*   **The Student Metaphor:** Compares standard LLMs (Closed-Book exam taking) to RAG-enabled systems (Open-Book library referencing).
+*   **Augmentation Execution Lifecycle:** Details the five steps: *Prompt Capture ➔ Semantic Vector Search ➔ Context Filtering ➔ Prompt Augmentation ➔ Factual Generation*.
+*   **Enterprise HR & Travel Operations:** Examines use cases mapping automated HR QA portals and localized travel assistants query processing.
+
+---
+
+### 🔸 Module 4: Infrastructure & Security (Exploring Cloud Computing)
+
+This module focuses on the migration from legacy hardware data centers to modern virtualized infrastructure, shared responsibility models, and hybrid architectures.
+
+#### 1. [Exploring Cloud Computing](file:///c:/Programming/Ai%20-%20Engineer/ai4future/docs/04-infra-security/cloud-computing.md)
+*   **Virtualization & Hypervisors:** Analyzes the core logical abstraction dividing physical hardware into isolated Guest Operating Systems (Virtual Machines).
+*   **Physical vs. Virtual Servers:** Compares dedicated single-tenant bare-metal hosts (regulatory security and high data workloads) with shared multi-tenant virtual machines (cost efficiency and elastic load scaling).
+*   **Shared Responsibility Matrix:** Breaks down user vs. provider duties across the four main tiers: **IaaS** (leased hardware/stoves), **PaaS** (managed runtime/kitchen), **FaaS** (event-triggered serverless/food truck), and **SaaS** (finished software/restaurant meal).
+*   **Deployment Topologies:** Contrasts Public, Private, Hybrid (bridging local compliance with cloud elasticity), and Multi-Cloud (distributing workloads across AWS, IBM Cloud, and Azure to prevent vendor lock-in).
+*   **Future Paradigms:** Highlights edge computing latency loops (IoT localized nodes), predictive auto-scaling through AI, and Zero Trust security architectures.
+
+---
+
+### 🔹 Module 5: Advanced Topics (Multimodal AI)
+
+This module details systems capable of integrating and processing multiple modalities (text, audio, image, video) concurrently to build rich contextual intelligence.
+
+#### 1. [Multimodal AI](file:///c:/Programming/Ai%20-%20Engineer/ai4future/docs/05-advanced-topics/multimodal-ai.md)
+*   **Unimodal vs. Multimodal Learning:** Compares traditional single-medium structures (text-only classifiers) with multi-modal architectures (interpreting images with contextual text).
+*   **Alignment & Integration Architectures:** Details how distinct modal encoders translate raw inputs into shared embedding spaces (CLIP alignment logic).
+*   **Operational Engineering Trade-Offs:** Explores data alignment difficulties, high compute requirements, and visual-semantic sync latency.
+*   **Enterprise Logistics & Cooking Hazard Detection:** Examines industrial case studies including automated truck telemetry reports, dormitory kitchen fire detection, and beach travel video query processing.
 
 ---
 

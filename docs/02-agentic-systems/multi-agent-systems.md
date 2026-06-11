@@ -1,5 +1,8 @@
 # The Rise of Multi-Agent Systems
 
+![The Rise of Multiagent Systems Badge](../../assets/badges/badge-rise-of-multiagent-systems.png)
+
+
 Welcome to the documentation for Module 2, Course 2: **The Rise of Multi-Agent Systems**. This document covers multi-agent architectures, coordination mechanisms, differences from single-agent setups, and real-world coordination scenarios.
 
 ---
@@ -112,18 +115,34 @@ Efficient operations in a multi-agent system depend on two key factors: how agen
 ### A. How Agents Share Information: Agent Architectures
 Agent architecture defines the design and flow of information within an agent-based AI framework. It determines who controls the data and how agents communicate:
 
+```mermaid
+graph TD
+    subgraph Centralized / Vertical Architecture
+        Hub((Central Hub)) <--> AgentA(Agent A)
+        Hub <--> AgentB(Agent B)
+        Hub <--> AgentC(Agent C)
+    end
+    
+    subgraph Decentralized / Horizontal Architecture
+        Agent1(Agent 1) <--> Agent2(Agent 2)
+        Agent1 <--> Agent3(Agent 3)
+        Agent2 <--> Agent4(Agent 4)
+        Agent3 <--> Agent4(Agent 4)
+        Agent2 <--> Agent3(Agent 3)
+    end
+
+    subgraph Hybrid Architecture
+        CentralCoord((Central Coordinator)) <--> DomainHubA((Domain Hub A))
+        CentralCoord <--> DomainHubB((Domain Hub B))
+        DomainHubA <--> AgentH1(Local Agent 1)
+        DomainHubA <--> AgentH2(Local Agent 2)
+        DomainHubB <--> AgentH3(Local Agent 3)
+        DomainHubB <--> AgentH4(Local Agent 4)
+        AgentH1 <--> AgentH2
+        AgentH3 <--> AgentH4
+    end
 ```
-    Vertical (Centralized)             Horizontal (Decentralized)
-      ┌──────────────┐                     ┌───┐ <───> ┌───┐
-      │ Central Hub  │                     │   │       │   │
-      └──────┬───────┘                     └───┘ <───> └───┘
-    ┌───┴───┬───┴───┐                        ▲           ▲
-    ▼       ▼       ▼                        │           │
-  ┌───┐   ┌───┐   ┌───┐                      ▼           ▼
-  │   │   │   │   │   │                    ┌───┐ <───> ┌───┐
-  └───┘   └───┘   └───┘                    │   │       │   │
-                                           └───┘ <───> └───┘
-```
+
 
 1.  **Vertical / Centralized Architecture**:
     *   *Concept*: Every agent reports directly to a centralized authority (hub) that collects, processes, and distributes all data.
@@ -168,16 +187,15 @@ A system's behavior is defined by how its parts interact. Multi-agent systems us
 
 To see how these architectures coordinate, consider a massive **Music Festival**. Staging an event of this scale involves thousands of attendees, dozens of performances, and complex logistics. Behind the scenes, different multi-agent systems coordinate in real-time to manage the event:
 
+```mermaid
+graph TD
+    MFC[Music Festival Control Hub] --> Cooperative["Cooperative MAS (Entrance Gates)"]
+    MFC --> Competitive["Competitive MAS (Food Stalls & Menus)"]
+    MFC --> Mixed["Mixed MAS (Transit & Ride-Sharing)"]
+    MFC --> Hierarchical["Hierarchical MAS (Crowd Control & Safety)"]
+    MFC --> Heterogeneous["Heterogeneous MAS (Stage Production)"]
 ```
-                        ┌────────────────────────┐
-                        │ Music Festival Control │
-                        └───────────┬────────────┘
-                                    │
-         ┌──────────────┬───────────┴───┬──────────────┐
-         ▼              ▼               ▼              ▼
-   Cooperative     Competitive        Mixed       Hierarchical
-    (Gates)       (Stalls/Menus)    (Transit)    (Crowd Safety)
-```
+
 
 #### 1. Entrance Gate Optimization (Cooperative MAS)
 *   *Task*: Minimize wait times and secure entrances.

@@ -35,20 +35,21 @@ Deploying data effectively offers organizations several critical advantages:
 
 All data is not identical; it serves different purposes based on how it is categorized. Data is classified using three primary dimensions: **by nature**, **by collection method**, and **by structure**.
 
-```
-                            ┌─────────────────────────────┐
-                            │     Data Classification     │
-                            └──────────────┬──────────────┘
-                                           │
-         ┌────────────────────────────────┼────────────────────────────────┐
-         ▼                                ▼                                ▼
-┌──────────────────┐             ┌──────────────────┐             ┌──────────────────┐
-│    By Nature     │             │  By Collection   │             │   By Structure   │
-├──────────────────┤             ├──────────────────┤             ├──────────────────┤
-│ • Qualitative    │             │ • Primary        │             │ • Structured     │
-│ • Quantitative   │             │ • Secondary      │             │ • Unstructured   │
-│                  │             │                  │             │ • Semi-Structured│
-└──────────────────┘             └──────────────────┘             └──────────────────┘
+```mermaid
+graph TD
+    DC[Data Classification] --> Nature[By Nature]
+    DC --> Collection[By Collection Method]
+    DC --> Structure[By Structure]
+    
+    Nature --> Qualitative[Qualitative / Categorical]
+    Nature --> Quantitative[Quantitative / Numerical]
+    
+    Collection --> Primary[Primary / Direct Sourced]
+    Collection --> Secondary[Secondary / Pre-existing]
+    
+    Structure --> Structured[Structured / Rigid Schema]
+    Structure --> Unstructured[Unstructured / Free-form]
+    Structure --> SemiStructured[Semi-Structured / Tagged]
 ```
 
 ---
@@ -180,23 +181,14 @@ Let's look at an example. Imagine a database table holding registered voter info
 
 When a query is run, the DBMS processes the request in four key steps:
 
+```mermaid
+graph TD
+    Step1[Step 1: Write a Query] -->|Query: Age < 21| Step2[Step 2: Validate Query]
+    Step2 -->|Checks Syntax & Tables| Step3[Step 3: Filter Data]
+    Step3 -->|Scans Rows & Evaluates| Step4[Step 4: Fetch Results]
+    Step4 -->|Returns Matching Dataset| Output[Output: Selected Voters]
 ```
-┌─────────────────────────┐
-│ Step 1: Write a Query   │ -> "Find all rows where Age < 21"
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ Step 2: Validate Query  │ -> Checks syntax and data availability
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ Step 3: Filter Data     │ -> Scans rows and checks if Age < 21
-└────────────┬────────────┘
-             ▼
-┌─────────────────────────┐
-│ Step 4: Fetch Results   │ -> Returns Michael, Emily, and Sarah
-└─────────────────────────┘
-```
+
 
 #### Step 1: Writing a Query
 The user drafts an SQL statement defining what data they need. For this task, the query translates to:
@@ -253,19 +245,13 @@ After a successful event last year, the organizers want to increase attendee sat
 #### The ETL (Extract, Transform, Load) Solution
 Before analyzing the data, the organizers must process it using the ETL pipeline:
 
+```mermaid
+graph TD
+    Extract[1. Extract] -->|Gathering data: Registrations, QR codes, Sheets| Transform[2. Transform]
+    Transform -->|Processing: Cleaning, Standardizing, Deduplication| Load[3. Load]
+    Load -->|Storage: Consolidated structured data| Warehouse[(Data Warehouse)]
 ```
-┌─────────────────────────────────┐
-│           1. EXTRACT            │ -> Gathering data from: Online registrations, QR trackers, manual sign-in sheets
-└────────────────┬────────────────┘
-                 ▼
-┌─────────────────────────────────┐
-│          2. TRANSFORM           │ -> Cleaning dates, standardizing numerical types, deduplicating attendees
-└────────────────┬────────────────┘
-                 ▼
-┌─────────────────────────────────┐
-│             3. LOAD             │ -> Storing structured, unified data in a central Data Warehouse
-└─────────────────────────────────┘
-```
+
 
 1.  **Extract**: Gather raw data collected from last year's event. This includes online pre-registrations, QR code scans at stand entrances, and manual guestbooks filled out on-site.
 2.  **Transform**: Merge the disparate datasets into a consistent, clean format. This is the most complex phase of the ETL process.
@@ -352,15 +338,22 @@ IoT platforms optimize data pipelines in three major areas:
 
 Beyond AI and IoT, three emerging trends are shaping the future of data:
 
+```mermaid
+graph TD
+    Trends[Emerging Data Trends] --> Privacy[1. Privacy & Security]
+    Trends --> Visuals[2. Advanced Visualizations]
+    Trends --> Synthetic[3. Synthetic Data]
+    
+    Privacy --> P1[Strong Encryption]
+    Privacy --> P2[Access Controls]
+    
+    Visuals --> V1[Interactive Dashboards]
+    Visuals --> V2[Cognos Analytics]
+    
+    Synthetic --> S1[Simulated Datasets]
+    Synthetic --> S2[Privacy Protection]
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│                          Emerging Data Trends                          │
-├───────────────────────┬────────────────────────┬───────────────────────┤
-│ 1. Privacy & Security │ 2. Advanced Visuals    │ 3. Synthetic Data     │
-│  • Strong Encryption  │  • Interactive Boards  │  • Simulated Datasets │
-│  • Password Policies  │  • Cognos Analytics    │  • Privacy Protection │
-└───────────────────────┴────────────────────────┴───────────────────────┘
-```
+
 
 #### 1. Data Privacy and Security
 As organizations gather larger quantities of sensitive personal details, enforcing strict data boundaries is critical. Companies are implementing robust privacy layers and access controls to prevent unauthorized data exposure.
