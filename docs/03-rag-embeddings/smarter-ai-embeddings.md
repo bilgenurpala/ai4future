@@ -1,6 +1,6 @@
 # Build Smarter AI with Embeddings (Retrieval-Augmented Generation)
 
-![Introduction to Retrieval-Augmented Generation Badge](../../assets/badges/badge-introduction-to-rag.png)
+![Introduction to Retrieval-Augmented Generation Badge](../../assets/badges/badge-introduction-to-rag.png) ![Build Smarter AI with Embeddings Badge](../../assets/badges/badge-build-smarter-ai-with-embeddings.png)
 
 ## Overview
 

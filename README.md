@@ -10,11 +10,21 @@ Welcome to the **ai4future** repository—a centralized, portfolio-grade technic
 
 Below is the collection of skills credentials earned and documented throughout this engineering curriculum:
 
-| Vector Embeddings | Retrieval-Augmented Generation | Autonomous AI Agents | Multi-Agent Coordination | Multimodal AI Architectures |
-| :---: | :---: | :---: | :---: | :---: |
-| ![Vector Embeddings](assets/badges/badge-vector-embeddings.png) | ![Introduction to RAG](assets/badges/badge-introduction-to-rag.png) | ![Power of AI Agents](assets/badges/badge-power-of-ai-agents.png) | ![Rise of Multi-Agent Systems](assets/badges/badge-rise-of-multiagent-systems.png) | ![Multimodal RAG](assets/badges/badge-multimodal-rag.png) |
-| **Vector Embeddings: Key to Meaning** | **Introduction to RAG** | **Power of AI Agents** | **Rise of Multi-Agent Systems** | **Multimodal RAG** |
-| [Notes Ledger](docs/03-rag-embeddings/vector-embeddings.md) | [Notes Ledger](docs/03-rag-embeddings/smarter-ai-embeddings.md) | [Notes Ledger](docs/02-agentic-systems/ai-agents-power.md) | [Notes Ledger](docs/02-agentic-systems/multi-agent-systems.md) | [Notes Ledger](docs/05-advanced-topics/multimodal-ai.md) |
+### 🔍 Retrieval-Augmented Generation & Vector Spaces
+
+| Vector Embeddings | Retrieval-Augmented Generation (Intro) | Build Smarter AI with Embeddings |
+| :---: | :---: | :---: |
+| ![Vector Embeddings](assets/badges/badge-vector-embeddings.png) | ![Introduction to RAG](assets/badges/badge-introduction-to-rag.png) | ![Build Smarter AI with Embeddings](assets/badges/badge-build-smarter-ai-with-embeddings.png) |
+| **Vector Embeddings: Key to Meaning** | **Introduction to RAG** | **Build Smarter AI with Embeddings** |
+| [Notes Ledger](docs/03-rag-embeddings/vector-embeddings.md) | [Notes Ledger](docs/03-rag-embeddings/smarter-ai-embeddings.md) | [Notes Ledger](docs/03-rag-embeddings/smarter-ai-embeddings.md) |
+
+### 🤖 Agentic Systems & Advanced Topics
+
+| Autonomous AI Agents | Multi-Agent Coordination | Make Agentic AI Work for You | Multimodal AI Architectures |
+| :---: | :---: | :---: | :---: |
+| ![Power of AI Agents](assets/badges/badge-power-of-ai-agents.png) | ![Rise of Multi-Agent Systems](assets/badges/badge-rise-of-multiagent-systems.png) | ![Make Agentic AI Work for You](assets/badges/badge-make-agentic-ai-work-for-you.png) | ![Multimodal RAG](assets/badges/badge-multimodal-rag.png) |
+| **Power of AI Agents** | **Rise of Multi-Agent Systems** | **Make Agentic AI Work for You** | **Multimodal RAG** |
+| [Notes Ledger](docs/02-agentic-systems/ai-agents-power.md) | [Notes Ledger](docs/02-agentic-systems/multi-agent-systems.md) | [Notes Ledger](docs/02-agentic-systems/ticket-routing.md) | [Notes Ledger](docs/05-advanced-topics/multimodal-ai.md) |
 
 
 ---

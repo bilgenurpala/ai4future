@@ -22,6 +22,7 @@ In this module, I earned the following skills credentials:
 | Credential / Badge | Subject Matter | Documented Ledger |
 | :---: | :--- | :---: |
 | ![Introduction to Retrieval-Augmented Generation](../../assets/badges/badge-introduction-to-rag.png) | **Introduction to Retrieval-Augmented Generation** | [smarter-ai-embeddings.md](smarter-ai-embeddings.md) |
+| ![Build Smarter AI with Embeddings](../../assets/badges/badge-build-smarter-ai-with-embeddings.png) | **Build Smarter AI with Embeddings** | [smarter-ai-embeddings.md](smarter-ai-embeddings.md) |
 | ![Vector Embeddings: AI's Key to Meaning](../../assets/badges/badge-vector-embeddings.png) | **Vector Embeddings: AI's Key to Meaning** | [vector-embeddings.md](vector-embeddings.md) |
 
 

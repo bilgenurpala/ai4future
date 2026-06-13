@@ -1,5 +1,7 @@
 # AI-Powered Ticket Routing and Recommendation Systems
 
+![Make Agentic AI Work for You Badge](../../assets/badges/badge-make-agentic-ai-work-for-you.png)
+
 Welcome to the comprehensive technical documentation for **AI-Powered Ticket Routing and Recommendation Systems**. This note covers the architectural foundations, technical components, machine learning paradigms, data privacy constraints, and real-world implementations of modern intelligent customer interaction platforms.
 
 ---

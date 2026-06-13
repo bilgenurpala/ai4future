@@ -24,6 +24,7 @@ In this module, I earned the following skills credentials:
 | :---: | :--- | :---: |
 | ![Unleashing the Power of AI Agents](../../assets/badges/badge-power-of-ai-agents.png) | **Unleashing the Power of AI Agents** | [ai-agents-power.md](ai-agents-power.md) |
 | ![The Rise of Multiagent Systems](../../assets/badges/badge-rise-of-multiagent-systems.png) | **The Rise of Multi-Agent Systems** | [multi-agent-systems.md](multi-agent-systems.md) |
+| ![Make Agentic AI Work for You](../../assets/badges/badge-make-agentic-ai-work-for-you.png) | **Make Agentic AI Work for You** | [ticket-routing.md](ticket-routing.md) |
 
 ---
 
