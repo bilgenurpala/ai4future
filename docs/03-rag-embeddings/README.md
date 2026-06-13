@@ -17,11 +17,13 @@ Welcome to the documentation for **Module 3: RAG & Embeddings**. This section ex
 
 ## 🎖️ Earned Digital Credentials
 
-In this module, I earned the following skills credential:
+In this module, I earned the following skills credentials:
 
 | Credential / Badge | Subject Matter | Documented Ledger |
 | :---: | :--- | :---: |
 | ![Introduction to Retrieval-Augmented Generation](../../assets/badges/badge-introduction-to-rag.png) | **Introduction to Retrieval-Augmented Generation** | [smarter-ai-embeddings.md](smarter-ai-embeddings.md) |
+| ![Vector Embeddings: AI's Key to Meaning](../../assets/badges/badge-vector-embeddings.png) | **Vector Embeddings: AI's Key to Meaning** | [vector-embeddings.md](vector-embeddings.md) |
+
 
 ---
 

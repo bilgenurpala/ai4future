@@ -12,6 +12,7 @@ Welcome to the documentation for **Module 2: Agentic Systems**. This module tran
 | :--- | :---: | :--- | :--- |
 | **Power of AI Agents** | [![Notes](https://img.shields.io/badge/Notes-Markdown-blue?style=flat-square&logo=markdown)](ai-agents-power.md) | Single-agent autonomous architectures, decision logic, and tool interfaces | 3 Pillars of agency (Reasoning, Memory, Actions), ReAct loop execution |
 | **Multi-Agent Systems** | [![Notes](https://img.shields.io/badge/Notes-Markdown-blue?style=flat-square&logo=markdown)](multi-agent-systems.md) | Cooperative and competitive multi-agent frameworks, coordination, and MoE | Centralized vs. Decentralized MAS, hybrid routing, safety boundaries |
+| **Ticket Routing & Recommendations** | [![Notes](https://img.shields.io/badge/Notes-Markdown-blue?style=flat-square&logo=markdown)](ticket-routing.md) | AI-powered ticket routing, recommendation architectures, and NLU/sentiment classification | Collaborative/Content filtering, GDPR, NLU core features, IBM Watson NLU |
 
 ---
 
@@ -95,6 +96,7 @@ graph TD
 To read the technical notes directly:
 *   Study single-agent architectures: [ai-agents-power.md](ai-agents-power.md)
 *   Study multi-agent systems & coordination: [multi-agent-systems.md](multi-agent-systems.md)
+*   Study ticket routing & recommendation systems: [ticket-routing.md](ticket-routing.md)
 
 ---
 

@@ -10,11 +10,12 @@ Welcome to the **ai4future** repository—a centralized, portfolio-grade technic
 
 Below is the collection of skills credentials earned and documented throughout this engineering curriculum:
 
-| Retrieval-Augmented Generation | Autonomous AI Agents | Multi-Agent Coordination | Multimodal AI Architectures |
-| :---: | :---: | :---: | :---: |
-| ![Introduction to RAG](assets/badges/badge-introduction-to-rag.png) | ![Power of AI Agents](assets/badges/badge-power-of-ai-agents.png) | ![Rise of Multi-Agent Systems](assets/badges/badge-rise-of-multiagent-systems.png) | ![Multimodal RAG](assets/badges/badge-multimodal-rag.png) |
-| **Introduction to RAG** | **Power of AI Agents** | **Rise of Multi-Agent Systems** | **Multimodal RAG** |
-| [Notes Ledger](docs/03-rag-embeddings/smarter-ai-embeddings.md) | [Notes Ledger](docs/02-agentic-systems/ai-agents-power.md) | [Notes Ledger](docs/02-agentic-systems/multi-agent-systems.md) | [Notes Ledger](docs/05-advanced-topics/multimodal-ai.md) |
+| Vector Embeddings | Retrieval-Augmented Generation | Autonomous AI Agents | Multi-Agent Coordination | Multimodal AI Architectures |
+| :---: | :---: | :---: | :---: | :---: |
+| ![Vector Embeddings](assets/badges/badge-vector-embeddings.png) | ![Introduction to RAG](assets/badges/badge-introduction-to-rag.png) | ![Power of AI Agents](assets/badges/badge-power-of-ai-agents.png) | ![Rise of Multi-Agent Systems](assets/badges/badge-rise-of-multiagent-systems.png) | ![Multimodal RAG](assets/badges/badge-multimodal-rag.png) |
+| **Vector Embeddings: Key to Meaning** | **Introduction to RAG** | **Power of AI Agents** | **Rise of Multi-Agent Systems** | **Multimodal RAG** |
+| [Notes Ledger](docs/03-rag-embeddings/vector-embeddings.md) | [Notes Ledger](docs/03-rag-embeddings/smarter-ai-embeddings.md) | [Notes Ledger](docs/02-agentic-systems/ai-agents-power.md) | [Notes Ledger](docs/02-agentic-systems/multi-agent-systems.md) | [Notes Ledger](docs/05-advanced-topics/multimodal-ai.md) |
+
 
 ---
 
@@ -60,6 +61,7 @@ Below is the collection of skills credentials earned and documented throughout t
 *   **Mixture of Experts (MoE) & Gate Routing:** Models load balancing and token assignment across heterogeneous expert models:
     $$y = \sum_{i=1}^{N} G(x)_i E_i(x)$$
     where the gating network $G(x) = \text{Softmax}(W_g x)$ outputs the distribution routing score across specialist experts $E_i(x)$.
+*   **Ticket Routing & Recommendation Systems:** Details NLU classification pipelines, collaborative and content-based recommendation filtering models, and data privacy compliance structures (e.g., GDPR Article 5/7).
 *   **Prerequisites:** Module 1 completion, basic knowledge of API structures and REST operations.
 
 ---
@@ -91,6 +93,7 @@ Below is the collection of skills credentials earned and documented throughout t
     $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle \quad \text{subject to} \quad |\alpha|^2 + |\beta|^2 = 1$$
 *   **Quantum Logic Gates:** Evaluates rotation transformations via the Hadamard Gate matrix:
     $$H = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
+*   **Quantum Hardware & Cryogenics:** Covers sub-kelvin thermal dilution refrigerator architecture (15 mK), physical qubit isolation, signal filtering, and cryogenic amplification.
 *   **Prerequisites:** Linear algebra (matrix tensor products, complex vector spaces) and deep neural network encoders.
 
 ---
