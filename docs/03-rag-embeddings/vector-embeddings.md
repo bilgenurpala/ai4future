@@ -169,3 +169,15 @@ The LLM generates a well-structured, factual response containing step-by-step gu
 2.  **Context Over Keywords:** Similarity matching allows systems to retrieve contextually relevant records even when query and source vocabularies differ.
 3.  **Multi-Modal Utility:** Text, images, and audio can be vectorized into a shared space, supporting cross-modal retrieval and analysis.
 4.  **RAG Optimization:** Vector databases act as the search indexing engine for RAG pipelines, ensuring the LLM is supplied with verified, relevant context.
+
+---
+
+## README Reference Material
+
+> The following technical summaries were originally featured in the repository README as a module-level overview.
+
+*   **Context Grounding:** Mitigates LLM hallucinations by intercepting inputs and appending highly relevant contextual tokens extracted at query time.
+*   **Vector Search & Cosine Similarity:** Computes semantic proximity in high-dimensional embedding spaces:
+    $$\text{similarity}(A, B) = \cos(\theta) = \frac{A \cdot B}{\|A\| \|B\|} = \frac{\sum_{i=1}^n A_i B_i}{\sqrt{\sum_{i=1}^n A_i^2} \sqrt{\sum_{i=1}^n B_i^2}}$$
+*   **Distance Metrics:** Compares Euclidean distance ($L_2$) vs. Inner Product ($IP$) metrics for dense vector clustering.
+*   **Prerequisites:** Vector mathematics (dot products, vector normalization) and indexing patterns.

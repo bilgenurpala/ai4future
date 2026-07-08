@@ -98,3 +98,12 @@ graph LR
 *   *Inference scaling to improve multimodal RAG*, IBM Research, June 2025.
 *   *What is RAG (retrieval-augmented generation)?*, IBM Research, October 2024.
 *   *ImageBind: One Embedding Space To Bind Them All*, Girdhar et al., Meta AI, 2023.
+
+---
+
+## README Reference Material
+
+> The following technical summaries were originally featured in the repository README as a module-level overview.
+
+*   **Multimodal Alignment (CLIP):** Connects disparate unimodal encoders (Vision ViT and Text Transformer) into a shared semantic embedding space using contrastive InfoNCE loss:
+    $$\text{InfoNCE Loss} = -\log \frac{e^{\cos(v_i, t_i)/\tau}}{\sum_{j} e^{\cos(v_i, t_j)/\tau}}$$

@@ -306,3 +306,18 @@ By improving decision-making, enabling automation, and integrating AI across dom
 #### 5. Supply Chain: Seamless Coordination & Demand Forecasting
 *   *Concept*: Automates warehouse operations, synchronizes production lines, and forecasts demand fluctuations to reduce operational inefficiencies.
 *   *Example (Smart Warehouses)*: Warehouses use a MAS to manage stock levels, guide robotic pickers, and redirect shipments based on live order data, creating an automated and resilient logistics loop.
+
+---
+
+## README Reference Material
+
+> The following technical summaries were originally featured in the repository README as a module-level overview.
+
+*   **The ReAct Planning Loop:** Implements the iterative execution cycle:
+    $$\text{Thought} \longrightarrow \text{Action} \longrightarrow \text{Observation}$$
+*   **Autonomy Spectrum:** Charts the progression from deterministic if-else scripts to fully autonomous, feedback-driven goal seeking.
+*   **Mixture of Experts (MoE) & Gate Routing:** Models load balancing and token assignment across heterogeneous expert models:
+    $$y = \sum_{i=1}^{N} G(x)_i E_i(x)$$
+    where the gating network $G(x) = \text{Softmax}(W_g x)$ outputs the distribution routing score across specialist experts $E_i(x)$.
+*   **Ticket Routing & Recommendation Systems:** Details NLU classification pipelines, collaborative and content-based recommendation filtering models, and data privacy compliance structures (e.g., GDPR Article 5/7).
+*   **Prerequisites:** Module 1 completion, basic knowledge of API structures and REST operations.

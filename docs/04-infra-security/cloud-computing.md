@@ -183,3 +183,17 @@ graph LR
 *   *What is virtualization?*, IBM Technology, 2024.
 *   *Shared Responsibility Model in Cloud Computing*, AWS Security Center / Azure Trust Center, 2024.
 *   *What is Edge Computing?*, IBM Edge Solutions, 2024.
+
+---
+
+## README Reference Material
+
+> The following technical summaries were originally featured in the repository README as a module-level overview.
+
+*   **Virtualization & Hypervisors:** Explores resources scaling from physical host CPUs to hypervisor-isolated guest OS (Virtual Machines).
+*   **Shared Responsibility Matrix:** Breaks down the operational boundaries between client and Cloud Service Provider (CSP) across IaaS, PaaS, SaaS, and FaaS.
+*   **Performance Scaling (Amdahl's Law):** Models theoretical latency improvements when parallelizing distributed workloads:
+    $$S_{\text{latency}}(s) = \frac{1}{(1 - p) + \frac{p}{s}}$$
+    where $p$ is the parallelizable proportion and $s$ is the scaling factor of execution nodes.
+*   **Security Architectures:** Explores cryptographic protocol standards, threat-modeling methodologies, and Zero Trust validation loops.
+*   **Prerequisites:** Operating system fundamentals, network routing, and IP protocol stacks.

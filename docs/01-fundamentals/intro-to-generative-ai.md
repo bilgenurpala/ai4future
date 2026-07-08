@@ -344,3 +344,24 @@ Mitigating these concerns requires continuous research, ethical guidelines, and 
 *   **Adversarial Testing (Red Teaming)**: Actively test models with hostile prompts to find and patch security vulnerabilities.
 *   **Human-in-the-Loop (HITL)**: Implement human verification for critical outputs before they reach end-users.
 *   **Industry Collaboration**: Align on safety standards with researchers, policymakers, and standard-setting organizations.
+
+---
+
+## README Reference Material
+
+> The following technical summaries were originally featured in the repository README as a module-level overview.
+
+*   **Operational AI Lifecycle:** Deconstructs the iterative four-step data cycle:
+    $$\text{Data Collection} \longrightarrow \text{Pattern Recognition} \longrightarrow \text{Inference/Prediction} \longrightarrow \text{Feedback Loop Optimization}$$
+*   **Data Science Outliers & Correlations:** Employs Interquartile Range (IQR) for boxplot anomaly fences:
+    $$\text{IQR} = Q_3 - Q_1$$
+    $$\text{Lower Fence} = Q_1 - 1.5 \times \text{IQR}, \quad \text{Upper Fence} = Q_3 + 1.5 \times \text{IQR}$$
+    Measures linear dependency via the Pearson correlation coefficient ($r$):
+    $$r = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^n (x_i - \bar{x})^2 \sum_{i=1}^n (y_i - \bar{y})^2}}$$
+*   **Transformer Mechanics & Self-Attention:** Details the scaled dot-product self-attention scoring driving modern LLM token relationships:
+    $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{Q K^T}{\sqrt{d_k}}\right) V$$
+*   **NLP Vector Representations:** Maps term frequency-inverse document frequency (TF-IDF):
+    $$\text{TF-IDF}(t, d, D) = \text{TF}(t, d) \times \text{IDF}(t, D)$$
+*   **Activation Functions:** Normalizes neural network forward passes ($z = W^T x + b$) via Sigmoid ($\sigma$), ReLU, or Softmax:
+    $$\sigma(z) = \frac{1}{1 + e^{-z}}, \quad \text{ReLU}(z) = \max(0, z), \quad \text{Softmax}(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}$$
+*   **Prerequisites:** Familiarity with basic probability, matrix multiplication, and database schemas.

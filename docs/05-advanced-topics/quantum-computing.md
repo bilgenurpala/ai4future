@@ -158,3 +158,16 @@ To keep qubits stable, the quantum processor is housed in a **Dilution Refrigera
 ## 🛠️ Navigating the Notes
 To explore other topics in this module:
 *   [← Multimodal AI](multimodal-ai.md)
+
+---
+
+## README Reference Material
+
+> The following technical summaries were originally featured in the repository README as a module-level overview.
+
+*   **Quantum Computing Foundations:** Models qubits under superposition and entanglement states:
+    $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle \quad \text{subject to} \quad |\alpha|^2 + |\beta|^2 = 1$$
+*   **Quantum Logic Gates:** Evaluates rotation transformations via the Hadamard Gate matrix:
+    $$H = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
+*   **Quantum Hardware & Cryogenics:** Covers sub-kelvin thermal dilution refrigerator architecture (15 mK), physical qubit isolation, signal filtering, and cryogenic amplification.
+*   **Prerequisites:** Linear algebra (matrix tensor products, complex vector spaces) and deep neural network encoders.
